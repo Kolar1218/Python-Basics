@@ -1,0 +1,43 @@
+1. write a program to calculate perimeter of the circle with radius 10.2
+
+print("Enter the Radius of circle") 
+radius=int(input())
+peri=2*3.14*radius
+print("Radius of a circle is:",radius)
+print("perimeter of a Circle is:",peri)
+
+
+2. write a program to calculate area of circle with radius (float) (collect using input function)
+
+print("Enter the vlaue for Radius")
+radius=float(input())
+area=3.14*radius**2
+print("Radius of Circle:",radius)
+print("Area of Circle is:",area)
+
+
+4. calculate Area of cone (a1:12 PM 28-Jan-22rea of cone = 0.33 * pi * r * r * h) (int)
+
+Error
+Traceback (most recent call last):
+  File "C:/Users/It's KG/AppData/Local/Programs/Python/Python310/areaCone.py", line 7, in <module>
+    area=round(.33*pi*(radius*2)*height)
+TypeError: can't multiply sequence by non-int of type 'float'
+
+Proper way is 
+
+print("Enter the radius of Cone:",)
+radius=float(input())
+print("Radisu of Cone is",radius)
+print("Enter the height if Cone")
+height=float(input())
+pi=3.14
+area=.33*pi*(radius*2)*height
+print("Area of Cone is:", area)
+
+
+3. write a program to calculate perimeter of the cricle with radius (float) (collect it through input function)
+Collect radius and height from user,
+
+
+
