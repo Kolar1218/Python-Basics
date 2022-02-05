@@ -68,7 +68,7 @@ print(val[-5:-3:20])
 # In[12]:
 
 
-val="imformation_technology"
+val="information_technology"
 print(val[-10:10:3])
 print(val[-5:-1:1])
 print(val[-8:-2:10])
